@@ -1,0 +1,38 @@
+{
+  "name": "MIZUKI-MD",
+  "description": "MIZUKI MD simple and essay to deploy wa bot",
+  "logo": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "mizuki-md"],
+  "success_url": "/",
+
+  "env": {
+    "GITHUB_USER_NAME": {
+      "description": "Put the user name here.",
+      "required": true
+    },  
+
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+
+        "BOT_NUMBER": {
+      "description": "Put your number.",
+      "required": true
+    },
+    "REPO_NAME": {
+      "description": "Put your github authtoken here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
