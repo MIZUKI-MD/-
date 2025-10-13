@@ -36,7 +36,7 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'MIZUKI-MD=CF8jTQjS#e28gJ4-BGQRmEpSSnSvCYBXIGlV7qNnBlp8n52Dy-a4' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER  === undefined ? '94775228949' : process.env.OWNER_NUMBER ,
 // [2]-------------------BOT PREFIX (.)-----------------------------------------------------------------------------------------------------
-PREFIX: process.env.PREFIX === undefined ? ',' : process.env.PREFIX ,
+PREFIX: process.env.PREFIX === undefined ? '.' : process.env.PREFIX ,
 // [3]-------------------BOT ALIVE MASSAGE--------------------------------------------------------------------------------------------------
 ALIVE: process.env.ALIVE === undefined ? "default" : process.env.ALIVE,
 // [4]-------------------AUTO READ STATUS true or false-------------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process
 
 BOT_NUMBER: process.env.BOT_NUMBER || "94775228949",
 BOT_NAME: process.env.BOT_NAME || "MIZUKI-MD",
-LANG: process.env.LANG || "SI",
+LANG: process.env.LANG || "EN",
 REACT: process.env.REACT || "☘",
 SONG_JID: process.env.SONG_JID || "120363376466846343@newsletter",
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://postgres:@Asitha2005b@db.waiqbrnuxkjebghzhovz.supabase.co:5432/postgres' : process.env.POSTGRESQL_URL,
